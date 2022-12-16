@@ -6,15 +6,15 @@ git config --global user.email "mail@mail.co"
 git config --global user.name "nama anda"
 git status
 git add .
-git add nama_file.php
+git add nama_file.cs
 git commit -m "pesan"
 git log
 git log --oneline
 git log --author='nama_author'
-git log nama_file.php
+git log nama_file.cs
 git log nomor_commit
 git diff
-git diff nama_file.php
+git diff nama_file.cs
 git checkout nama_file.html // kembalikan file modified ke sebelum modified
 git reset nama_file.html // kembalikan file staged ke modified
 git checkout HEAD~3 index.php // kembalikan file ke 3 commit sebelumnya 
